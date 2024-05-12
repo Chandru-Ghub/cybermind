@@ -3,8 +3,6 @@ import { LuSendHorizonal } from "react-icons/lu";
 import * as uuid from 'uuid'
 import "../style/Frame4.css";
 import { ImBin } from "react-icons/im";
-import { userData } from '../data';
-import { IoCloseSharp } from "react-icons/io5";
 import { MdEdit,MdUpdate } from "react-icons/md";
 const Frame4 = ({data}) => {
     const [comment,setComment] = useState('')
