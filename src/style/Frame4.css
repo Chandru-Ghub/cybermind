@@ -33,7 +33,7 @@
     height: 43px;
     align-items: center;
     justify-content: space-between;
-    background: rgba(255, 255, 255, 0.907);
+    background: #dfdfdfe7;
     >form{
         width: 234px;
         height: 43px;

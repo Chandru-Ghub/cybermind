@@ -18,12 +18,12 @@
     gap: 19px;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: #b5b5b5;
 }
 .topbar{
     height: 15px;
     width: 269.45px;
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
         >div{
         color:#F28482;
