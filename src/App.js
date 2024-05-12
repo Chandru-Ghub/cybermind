@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Frame from './components/Frame';
-
+import {DateTimePickerComponent} from '@syncfusion/ej2-react-calendars'
 function App() {
   return (
     <div className="App">

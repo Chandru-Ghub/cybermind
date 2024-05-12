@@ -6,7 +6,8 @@
         font-weight: 700;
         font-style: italic;
         text-align: start;
-        cursor: pointer;
+        margin-top: -10px;
+        padding-bottom: 5px;
     }
 }
 .popup{
@@ -92,7 +93,7 @@
     background: rgb(235, 235, 235);
 }
 .namecmt{
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     >div{

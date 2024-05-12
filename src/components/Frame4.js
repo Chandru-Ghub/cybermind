@@ -11,7 +11,6 @@ const Frame4 = ({data}) => {
     const [list,setList] = useState([])
     const [update,setUpdate]  =useState(false)
     const [change,setChange]  =useState(false)
-    const [show,setShow]  =useState(false)
     const iid = uuid.v4()
 
     const handleSubmit=(e)=>{
@@ -45,16 +44,14 @@ const Frame4 = ({data}) => {
     // }
   return (
     <div className='frame4'>
-        <p onClick={()=>setShow(!show)}>Comments</p>
-        {show?<div className='popup'>
+        <p>Comments</p>
        <div className="scroll">
        <div className='cmts'>
-       <p onClick={()=>setShow(!show)} className='close'>Add comment</p>
         {
         
             list.map((a)=>{
                 return(
-                    <div className='mycmt' onBlur={()=>setShow(!show)}>
+                    <div className='mycmt'>
                        
                         <div>
                             <div className='img' style={{marginLeft:'-10px'}}>
@@ -84,8 +81,7 @@ const Frame4 = ({data}) => {
                 <input autoFocus value={comment} type="text" onChange={(e)=>setComment(e.target.value)}/>
                 <button type='submit'>{ !change?<LuSendHorizonal /> :<MdUpdate />}</button>
             </form>
-        </div>
-        </div>:''}    
+        </div>    
     </div>
   )
 }

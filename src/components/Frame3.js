@@ -44,11 +44,11 @@ const Frame3 = ({data,setData}) => {
                 </span>
                 <p>Note:</p>
             </span>
-            <div className='nums'>
-                <div>88888888888</div>
-                <p>www.flowervendor.com</p>
-            </div>
+            <input className='nums' placeholder='Add notes'/>
         </div>
+        <span style={{background:'#E3E3E3',height:'1px'}}>
+        </span>
+        
     </div>
   )
 }

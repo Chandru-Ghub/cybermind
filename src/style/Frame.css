@@ -34,7 +34,6 @@
         gap: 12px;
     }
     >span{
-        color:#F28482;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -77,11 +76,9 @@
         }
     }
     >.cal{
-
-    }
-    >.inp{
         >input{
-            color: #E92C2C;
+            color: #000000;
+            font-size: 12px;
         }
     }
 }
@@ -198,6 +195,13 @@
             font-weight: 600;
             color: #5A5A5A;
         }
+    }
+    >input{
+        padding-left: 10px;
+        color: #494949;
+        font-weight: 600;
+        font-size: 12px;
+
     }
 }
 .nums{
