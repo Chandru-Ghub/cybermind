@@ -1,0 +1,133 @@
+.frame4{
+    height: 200px;
+    position: relative;
+    >p{
+        color: #5A5A5A;
+        font-weight: 700;
+        font-style: italic;
+        text-align: start;
+        cursor: pointer;
+    }
+}
+.popup{
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+}
+.scroll{
+    height: 180px;
+    overflow: scroll;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+.cmts{
+/* background: blue; */
+}
+.send{
+    position: absolute;
+    bottom: -2px;
+    display: flex;
+    width: 269px;
+    height: 43px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.907);
+    >form{
+        width: 234px;
+        height: 43px;
+        border-radius: 25px;
+        border: 1px solid #E3E3E3;
+        padding: 15px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        >button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #F28482;
+            border: none;
+            background: none;
+            cursor: pointer;
+
+        }
+        >button:hover{
+        transform: scale(1.1);
+        }
+        >button:active{
+        transform: scale(1.5);
+        }
+        >input{
+            font-size: 11px;
+            padding: 2px;
+            width: 180px;
+            border: none;
+            outline: none;
+        }
+    }
+}
+.cmts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+}
+.mycmt{
+    display: flex;
+    padding-left: 10px;
+    height: 41px;
+    width: 263px;
+    align-items: center;
+    justify-content: space-between;
+    >div{
+        display: flex;
+        gap: 10px;
+    }
+    
+}
+.mycmt:hover{
+    background: rgb(235, 235, 235);
+}
+.namecmt{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    >div{
+        color: #009379;
+        font-weight: 600;
+        text-align: start;
+    }
+    >p{
+        text-align: start;
+    }
+}
+.s2{
+    color: #F28482;
+    font-size: 13px;
+    padding-right: 3px;
+}
+.s1{
+    font-size: 13px;
+    padding-right: 3px;
+    color:#009379;
+    margin-right:5px;
+    
+}
+.s2 ,.s1{
+    cursor: pointer;
+}
+.s1:hover{
+   opacity: .5;
+}
+.close{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(230, 229, 229);
+}
