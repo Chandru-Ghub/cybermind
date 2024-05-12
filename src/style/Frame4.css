@@ -84,7 +84,7 @@
     align-items: center;
     justify-content: space-between;
     >div{
-        display: flex;
+        display: flex !important ;
         gap: 10px;
     }
     

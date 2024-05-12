@@ -47,13 +47,11 @@
 .frame2{
     width: 269.45px;
     height: 86.72px;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
-
-
     >.inp,.cal{
         width: 269px;
         height: 44px;
